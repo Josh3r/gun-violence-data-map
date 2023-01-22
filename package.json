@@ -1,0 +1,30 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "open-html": "open-cli ./dist/index.html",
+    "start": "npx webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@deck.gl/aggregation-layers": "^8.8.22",
+    "@deck.gl/core": "^8.8.22",
+    "@deck.gl/google-maps": "^8.8.22",
+    "@deck.gl/layers": "^8.8.22",
+    "convert-csv-to-json": "^1.5.0",
+    "open-cli": "^7.1.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
